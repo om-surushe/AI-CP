@@ -85,6 +85,7 @@ validators==0.20.0
 wasabi==0.10.1
 watchdog==2.1.9
 zipp==3.10.0
+pafy
 youtube-dl
 nltk
 spacy==2.3.5

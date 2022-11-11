@@ -375,7 +375,7 @@ def run():
         ad_password = st.text_input("Password", type='password')
         if st.button('Login'):
             # st.sidebar.subheader('**ID / Password Required!**')
-            if ad_user == 'machine_learning_hub' and ad_password == 'mlhub123':
+            if ad_user == 'omsurushe' and ad_password == '123456789':
                 st.success("Welcome Kushal")
                 # Display Data
                 cursor.execute('''SELECT*FROM user_data''')

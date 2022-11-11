@@ -6,6 +6,7 @@ import time
 import datetime
 import nltk
 nltk.download('stopwords')
+# import nltk_utils
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage

@@ -1,0 +1,705 @@
+    1  cd Downloads/
+    2  sudo dpkg i --
+    3  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    4  printenv > /tmp/tmp-1861yOV1o32RrbStxt
+    5  sudo dpkg -i code_1.71.1-1662667267_amd64.deb 
+    6  git clone https://github.com/om-surushe/VishwaConnect.git
+    7  sudo apt install git
+    8  git clone https://github.com/om-surushe/VishwaConnect.git
+    9  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
+   10  git clone https://github.com/om-surushe/VishwaConnect.git
+   11  which python
+   12  which python3
+   13  python3
+   14  pip3
+   15  pip
+   16  which pip
+   17  which pip3
+   18  which pip3.8
+   19  python
+   20  python3 -m pip install --upgrade pip
+   21  python3 -m ensurepip --upgrade
+   22  python3 get-pip.py
+   23  cd ..
+   24  python3 get-pip.py
+   25  python -m ensurepip --upgrade
+   26  python3 -m ensurepip --upgrade
+   27  clear
+   28  sudo apt update
+   29  apt list --upgradable
+   30  sudo apt upgrade
+   31  sudo apt install python3-pip
+   32  pip3 --version
+   33  cd Documents/
+   34  which pip
+   35  which pip3
+   36  clear
+   37  pip3 install virtualenv
+   38  virtualenv VishwaConnect-Env
+   39  pip3 list
+   40  virtualenv VishwaConnect-Env
+   41  sudo apt install python3-virtualenv
+   42  virtualenv VishwaConnect-Env
+   43  python3 virtualenv VishwaConnect-Env
+   44  clear
+   45  pip3 install virtualenv
+   46  sudo apt install python3-virtualenv
+   47  python3-virtualenv
+   48  python3 -m venv venv
+   49  sudo apt install python3.8-venv
+   50  python3 -m venv VishwaConnectEnv
+   51  ls
+   52  rm -rf venv/
+   53  ls
+   54  pip3 install awsebcli
+   55  source ../VishwaConnectEnv/bin/activate
+   56  which python
+   57  python manage.py runserver
+   58  pip install django
+   59  pip3 install django
+   60  python -m pip install --upgrade pip
+   61  python ../../Downloads/get-pip.py 
+   62  pip list
+   63  pip install django
+   64  python manage.py runserver
+   65  pip install Django==3.2.13
+   66  python manage.py runserver
+   67  pip install cryptography==2.8
+   68  python manage.py runserver
+   69  python -m pip install Pillow
+   70  python manage.py runserver
+   71  clear
+   72  pip freeze > requirements.txt
+   73  mkdir .ebextensions
+   74  cd .ebextensions/
+   75  ls
+   76  touch django.config
+   77  python
+   78  ls
+   79  cd ..
+   80  ls
+   81  pwd
+   82  clear
+   83  eb init -p python-3.9 vishwa-connect
+   84  deactivate
+   85  eb init -p python-3.9 vishwa-connect
+   86  pip list
+   87  pip3 list
+   88  pip3 install awsebcli
+   89  eb init -p python-3.9 vishwa-connect
+   90  which python
+   91  which python3
+   92  which python3.8
+   93  which python3
+   94  eb
+   95  eb
+   96  pip3 list
+   97  eb init -p python-3.9 vishwa-connect
+   98  where python3
+   99  where python
+  100  which python3
+  101  cd /usr/bin/python3
+  102  pwd /usr/bin/python3
+  103  eb init -p python-3.9 vishwa-connect
+  104  where python3
+  105  which python3
+  106  which pip
+  107  which pip3
+  108  pip3 list
+  109  python3 --version
+  110  python3 -m pip3 list
+  111  python3 -m pip list
+  112  pip list
+  113  clear
+  114  pip3 install awsebcli
+  115  eb
+  116  python3 -m venv aws-env
+  117  source aws-env/bin/activate
+  118  pip
+  119  pip install awsebcli
+  120  python --version
+  121  python3 --version
+  122  eb init -p python-3.8 vishwaconnect-tut
+  123  deactivate 
+  124  pwd
+  125  source ../aws-env/bin/activate
+  126  eb init -p python-3.8 vishwaconnect-tutorial
+  127  pip list
+  128  python
+  129  deactivate 
+  130  source ../aws-env/bin/activate
+  131  eb init -p python-3.8 vishwaconnect-tutorial
+  132  eb init
+  133  eb create vishwaconnect-env
+  134  eb status
+  135  eb logs
+  136  source ../aws-env/bin/activate
+  137  eb logs > logs.txt
+  138  source ../aws-env/bin/activate
+  139  eb deploy
+  140  eb open
+  141  eb logs
+  142  eb deployeb ls
+  143  eb logs > logs.txt
+  144  source ../aws-env/bin/activate
+  145  eb logs > logs.txt
+  146  history
+  147  clear
+  148  source aws-env/bin/activate
+  149  python3 -m venv connectenv
+  150  python --version
+  151  source  connectenv/bin/activate
+  152  python --version
+  153  pip
+  154  pip install django
+  155  django-admin startproject vishwaconnect
+  156  ls
+  157  code vishwaconnect
+  158  source ../connectenv/bin/activate
+  159  python manage.py runserver
+  160  pip freeze > requirements.txt
+  161  mkdir .ebextensions
+  162  deactivate 
+  163  source ../aws-env/bin/activate
+  164  eb init -p python-3.8 connect-tutorial
+  165  eb init
+  166  eb create connect-env
+  167  eb status
+  168  eb logs > logs.txt
+  169  eb deploy
+  170  eb logs > logs.txt
+  171  eb deploy
+  172  source ../connectenv/bin/activate
+  173  python manage.py migrate
+  174  python manage.py createsuperuser
+  175  python manage.py collectstatic
+  176  source ../aws-env/bin/activate
+  177  eb deploy
+  178  eb logs > logs.txt 
+  179  source ../connectenv/bin/activate
+  180  python manage.py runserver
+  181  source ../aws-env/bin/a
+  182  source ../aws-env/bin/activate
+  183  eb deploy
+  184  eb init -p python-3.7 connect-tutorial
+  185  eb deploy
+  186  sudo apt update
+  187  sudo apt install software-properties-common
+  188  sudo add-apt-repository ppa:deadsnakes/ppa
+  189  sudo apt install python3.7
+  190  python3.7 --version
+  191  Python 3.7.3
+  192  ls
+  193  python3.7 -m pip install virtualenv
+  194  pip3.7 install virtualenv
+  195  pip
+  196  pip --version
+  197  pip3.7 --version
+  198  which pip
+  199  history
+  200  python3.7 -m pip install virtualenv
+  201  python3.7 -m pip install venv
+  202  sudo apt install python3.7-distutils
+  203  python3.7 -m pip install venv
+  204  python3.7 -m pip install virtualenv
+  205  pip3.7
+  206  python3.7 -m pip list
+  207  python3.7 -m pip --version
+  208  python3.7 -m venv aws-deployment
+  209  python3.7 venv aws-deployment
+  210  cd AWS-Deployment/
+  211  python3.7 venv aws-deployment
+  212  python3.7 -m pip list
+  213  python3.7 -m virtualenv om
+  214  clear
+  215  history
+  216  python3.7 -m virtualenv connectenv
+  217  cd Documents/AWS-Deployment/vishwaconnect/
+  218  ls
+  219  source ../connectenv/bin/activate
+  220  python --version
+  221  pip --version
+  222  python manage.py  runserver
+  223  pip install requirements.txt 
+  224  pip install -r requirements.txt 
+  225  pip install django
+  226  pip freeze > requirements.txt 
+  227  python manage.py  runserver
+  228  deactivate 
+  229  python3.7 -m pip install awsebcli
+  230  python3.7 -m pip install list
+  231  python3.7 -m pip list
+  232  eb init -p python-3.7 vishwa-connect
+  233  python3.7 -m eb init -p python-3.7 vishwa-connect
+  234  python3.7 eb init -p python-3.7 vishwa-connect
+  235  eb init -p python-3.7 vishwa-connect
+  236  cd ..
+  237  ls
+  238  rm -rf aws-deployment/
+  239  ls
+  240  python3.7 -m virtualenv aws-deploy
+  241  ls
+  242  cd vishwaconnect/
+  243  clear
+  244  source ../aws-deploy/bin/activate
+  245  pip install awsebcli
+  246  pip --version
+  247  eb init -p python-3.7 vishwa-connect
+  248  eb init
+  249  eb create vishwa-env
+  250  eb status
+  251  source ../connectenv/bin/activate
+  252  python manage.py  collectstatic
+  253  pip freeze > requirements.txt 
+  254  source ../aws-deploy/bin/activate
+  255  eb deploy
+  256  source ../connectenv/bin/activate
+  257  python manage.py  runserver
+  258  source ../aws-deploy/bin/activate
+  259  eb deploy
+  260  source ../connectenv/bin/activate
+  261  python manage.py  runserver
+  262  clear
+  263  source ../aws-deploy/bin/activate
+  264  eb deploy
+  265  eb status
+  266  source ../connectenv/bin/activate
+  267  code .
+  268  python manage.py startapp login
+  269  ls ../
+  270  source ../connectenv/bin/activate
+  271  python manage.py startapp login
+  272  cd
+  273  cd Documents/AWS-Deployment/vishwaconnect/
+  274  source ../connectenv/bin/activate
+  275  python manage.py startapp login
+  276  python manage.py startapp profile
+  277  python manage.py startapp profiles
+  278  python manage.py startapp events
+  279  python manage.py startapp learnings
+  280  pwd
+  281  cd /home/vishwa/Documents/AWS-Deployment/vishwaconnect
+  282  source ../connectenv/bin/activate
+  283  python manage.py startapp makemigrations
+  284  python manage.py startapp migrate
+  285  python manage.py makemigrations
+  286  pip install cryptography
+  287  python manage.py makemigrations
+  288  python -m pip install Pillow
+  289  python manage.py makemigrations
+  290  python manage.py migrate
+  291  python manage.py makemigrations
+  292  python manage.py migrate 0001
+  293  python manage.py migrate 0001_initial
+  294  python manage.py makemigrations
+  295  python manage.py migrate
+  296  python manage.py runserver
+  297  python manage.py createsuperuser
+  298  python manage.py runserver
+  299  source ../connectenv/bin/activate
+  300  python manage.py runserver
+  301  python3.7 manage.py runserver
+  302  cd Documents/AWS-Deployment/
+  303  source connectenv/bin/activate
+  304  python3.7 manage.py runserver
+  305  python manage.py runserver
+  306  cd vishwaconnect/
+  307  python manage.py runserver
+  308  source ../aws-deploy/bin/activate
+  309  eb deploy
+  310  source ../connectenv/bin/activate
+  311  pip freeze > requirements.txt 
+  312  source ../aws-deploy/bin/activate
+  313  eb deploy
+  314  git config --global user.email "omsurushe1907@gmail.com"
+  315  git config --global user.name "om-surushe"
+  316  cd Documents/AWS-Deployment/
+  317  source aws-deploy/bin/activate
+  318  cd vishwaconnect/
+  319  ls
+  320  eb init -p python-3.7 vishwa-connect
+  321  eb init
+  322  pip list
+  323  pip remove awsebcli
+  324  pip uninstall awsebcli
+  325  pip install awsebcli
+  326  eb init -p python-3.7 vishwa-connect
+  327  eb init
+  328  eb config
+  329  eb terminate
+  330  pip uninstall awsebcli
+  331  clear
+  332  python manage.py runserver
+  333  clear
+  334  eb init -p python-3.7 vit-vishwa
+  335  pip install awsebcli
+  336  eb init -p python-3.7 vit-vishwa
+  337  eb init
+  338  eb init -p python-3.7 vit-vishwa
+  339  eb init
+  340  eb create django-env
+  341  eb status
+  342  eb deploy
+  343  sudo snap install --classic code
+  344  code --version
+  345  git clone https://github.com/om-surushe/ubuntu-arshiti.git
+  346  source aws-deploy/
+  347  source aws-deploy/bin/activate
+  348  python venv aarshiti-env
+  349  venv aarshiti-env
+  350  pip install virtualenv
+  351  virtualenv aarshiti-env
+  352  source aarshiti-env/bin/activate
+  353  python --version
+  354  source ../aarshiti-env/bin/activate
+  355  python manage.py runserver
+  356  pip install django
+  357  python manage.py runserver
+  358  python -m pip install Pillow
+  359  python manage.py runserver
+  360  pip freeze > requirements.txt
+  361  cd "/home/vishwa/Documents/AWS-Deployment/OS/" && gcc Lab03.c -o Lab03 && "/home/vishwa/Documents/AWS-Deployment/OS/"Lab03
+  362  cls
+  363  clear
+  364  cd "/home/vishwa/Documents/AWS-Deployment/OS/" && gcc Lab03.c -o Lab03 && "/home/vishwa/Documents/AWS-Deployment/OS/"Lab03
+  365  cd "/home/vishwa/Documents/AWS-Deployment/OS/" && gcc Lab04.c -o Lab04 && "/home/vishwa/Documents/AWS-Deployment/OS/"Lab04
+  366  cd "/home/vishwa/Documents/AWS-Deployment/OS/" && gcc Lab03.c -o Lab03 && "/home/vishwa/Documents/AWS-Deployment/OS/"Lab03
+  367  cd "/home/vishwa/Documents/AWS-Deployment/OS/" && gcc Lab04.c -o Lab04 && "/home/vishwa/Documents/AWS-Deployment/OS/"Lab04
+  368  source ../aws-deploy/bin/activate
+  369  eb deploy
+  370  gzid -d GoogleNews-vectors-negative300.bin.gz 
+  371  gzip -d GoogleNews-vectors-negative300.bin.gz 
+  372  aws codecommit help
+  373  cd ..
+  374  ls
+  375  ls OS/
+  376  ls
+  377  clear
+  378  source ../VishwaConnectEnv/bin/activate
+  379  cd vishwaconnect/
+  380  python manage.py runserver
+  381  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  382  python manage.py runserver
+  383  source ../aws-deploy/bin/activate
+  384  eb deploy
+  385  history
+  386  eb logs > logs.txt
+  387  git clone https://github.com/om-surushe/Vishwa-Connect-Server.git
+  388  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  389  python manage.py runserver
+  390  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  391  eb deploy
+  392  eb logs > logs.txt
+  393  eb deploy
+  394  clear
+  395  pip install mysqlclient
+  396  pip3 install mysqlclient
+  397  pip install mysqlclient
+  398  sudo apt-get libmysqlclient-dev
+  399  sudo apt install libssl1.1
+  400  sudo apt install libmysqlclient-dev
+  401  pip install mysqlclient
+  402  sudo apt-get install libmysqlclient-dev -y
+  403  sudo apt-get install gcc -y
+  404  python3 --version
+  405  sudo apt-get install python3-dev -y
+  406  pip install mysqlclient
+  407  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  408  pip install mysqlclient
+  409  pip install psycopg2
+  410  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  411  pip install mysqlclient
+  412  sudo apt-get install libmysqlcppconn-dev
+  413  pip install mysqlclient
+  414  $> sudo apt-get update
+  415  sudo apt-get update
+  416  sudo apt-get install mysql-server
+  417  systemctl status mysql
+  418  pip install mysqlclient
+  419  systemctl status mysql
+  420  sudo apt-get install libmysqlclient21
+  421  pip install mysqlclient
+  422  pip install mysql-devel
+  423  pip install mysqlclient
+  424  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  425  sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+  426  pip install mysqlclient
+  427  sudo install mysql-client
+  428  sudo apt install mysql-client
+  429  echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.bash_profile
+  430  export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+  431  pip install mysqlclient
+  432  sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+  433  sudo apt-get install libmysqlclient-dev
+  434  pip install mysqlclient
+  435  clear
+  436  apt install mysql-devel gcc gcc-devel python3-devel
+  437  sudo apt install mysql-devel gcc gcc-devel python3-devel
+  438  sudo install mysql-devel gcc gcc-devel python-devel
+  439  sudo install mysql-devel gcc gcc-devel python3-devel
+  440  sudo apt install mysql-devel
+  441  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+  442  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+  443  sudo apt-get update
+  444  sudo apt-get -y install postgresql
+  445  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  446  pip install psycopg2
+  447  pip install psycopg2-binary
+  448  pip list
+  449  pip freeze > requirements.txt 
+  450  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  451  python manage.py migrate
+  452  clear
+  453  python manage.py makemigrations
+  454  python manage.py migrate
+  455  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  456  python manage.py migrate
+  457  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  458  python manage.py makemigrations
+  459  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  460  python manage.py makemigrations
+  461  telnet vishwa-database.cuy8oz00tarj.us-west-2.rds.amazonaws.com
+  462  telnet vishwa-database.cuy8oz00tarj.us-west-2.rds.amazonaws.com 3306
+  463  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  464  python manage.py makemigrations
+  465  python manage.py migrate
+  466  python manage.py  runserver
+  467  clear
+  468  python manage.py createsuperuser
+  469  python manage.py  runserver
+  470  python manage.py makemigrations
+  471  python manage.py migrate
+  472  python manage.py  runserver
+  473  pip freeze > requirements.txt 
+  474  source ../aws-deploy/bin/activate
+  475  eb deploy
+  476  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  477  python manage.py runserver
+  478  pip install WhiteNoise
+  479  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  480  pip list
+  481  python manage.py runserver
+  482  python manage.py collectstatic
+  483  python manage.py runserver
+  484  clear
+  485  source ../aws-deploy/bin/activate
+  486  eb deploy
+  487  wget https://github.com/explosion/sense2vec/releases/download/v1.0.0/s2v_reddit_2015_md.tar.gz
+  488  tar -xvf  s2v_reddit_2015_md.tar.gz
+  489  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  490  python manage.py runserver
+  491  pip install boto3
+  492  pip install django-storages
+  493  pip freeze > requirements.txt 
+  494  python manage.py runserver
+  495  pip install WhiteNoise
+  496  python manage.py runserver
+  497  pip install WhiteNoise==2.0.6
+  498  pip install WhiteNoise==2.0.4
+  499  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  500  python manage.py runserver
+  501  pip install whitenoise
+  502  python manage.py runserver
+  503  pip list
+  504  pip install whitenoise
+  505  pip uninstall whitenoise
+  506  pip install whitenoise
+  507  python manage.py runserver
+  508  python manage.py collectstatic
+  509  python manage.py runserver
+  510  source ../aws-deploy/bin/activate
+  511  source ../connectenv/bin/activate
+  512  pip freeze > requirements.txt 
+  513  source ../aws-deploy/bin/activate
+  514  eb deploy
+  515  eb status
+  516  ls
+  517  source /home/vishwa/Documents/AWS-Deployment/connectenv/bin/activate
+  518  python manage.py runserver
+  519  source /home/vishwa/Documents/Trail/automl/bin/activate
+  520  python --version
+  521  pip install -r requirements.txt 
+  522  pip list
+  523  pip3 list
+  524  pip install streamlit
+  525  pip install plotly
+  526  pip install pycaret
+  527  which python
+  528  which python3
+  529  which python3.9
+  530  which python3.7
+  531  pip3.8 list
+  532  pip3 --versionn
+  533  python3 --version
+  534  pip3 --version
+  535  pip3.7 --version
+  536  pip --version
+  537  pip3 --version
+  538  pip3.7 
+  539  pip list
+  540  pip3 list
+  541  virtualenv automl
+  542  virtualenv
+  543  venv automl
+  544  history
+  545  python3 -m virtualenv automl
+  546  python3.8 -m virtualenv automl
+  547  python3.7 -m virtualenv automl
+  548  ls
+  549  git clone https://github.com/nicknochnack/AutoStreamlit
+  550  code AutoStreamlit/
+  551  source /home/vishwa/Documents/Trail/automl/bin/activate
+  552  pip list
+  553  pip install pycaret
+  554  pip install pandas_profiling
+  555  pip install streamlit_pandas_profiling
+  556  python app.py 
+  557  streamlit run app.py 
+  558  pip freeze > requirements.txt 
+  559  pip install numpy==1.20
+  560  pip install scikit-learn==1.0.2
+  561  streamlit run app.py 
+  562  pip install scikit-learn==0.23.2
+  563  streamlit run app.py 
+  564  pip freeze > requirements.txt 
+  565  streamlit run app.py 
+  566  source /home/vishwa/Documents/Trail/automl/bin/activate
+  567  pip freeze > requirements.txt 
+  568  source /home/vishwa/Documents/Trail/automl/bin/activate
+  569  python --version
+  570  python3.7 --version
+  571  which python
+  572  which python3python
+  573  python
+  574  pip freeze > requirements.txt 
+  575  streamlit run app.py 
+  576  ls
+  577  cd Documents/
+  578  ls
+  579  mkdir ML
+  580  ls
+  581  cd ML/
+  582  ls
+  583  clear
+  584  which python
+  585  which python3
+  586  which python3python --version
+  587  python --version
+  588  python3 --version
+  589  python3.7 --version
+  590  python3.7m --version
+  591  python3.8 --version
+  592  pip list
+  593  pip3 list
+  594  virtualenv ML-CP
+  595  pip install virtualenv
+  596  virtualenv ML-CP
+  597  virtualenv ml
+  598  virtualenv env
+  599  python --version
+  600  python3 --version
+  601  pip3 install virtualenv
+  602  virtualenv ml-cp-env
+  603  python3 -m venv my_env
+  604  python3 -m venv ML-CP
+  605  source /home/vishwa/Documents/ML/ML-CP/bin/activate
+  606  python --version
+  607  python3 --version
+  608  source /home/vishwa/Documents/ML/ML-CP/bin/activate
+  609  clear
+  610  pip install -r requirements.txt 
+  611  streamlit run app.py 
+  612  pip uninstall -r requirements.txt 
+  613  pip list
+  614  clear
+  615  pip install streamlit
+  616  pip install plotly
+  617  pip install pycaret
+  618  pip install pandas_profiling
+  619  pip install pycaret
+  620  pip install streamlit_pandas_profiling
+  621  streamlit run app.py 
+  622  pip freeze > requirements.txt 
+  623  ls
+  624  cd target/
+  625  ls
+  626  python --version
+  627  source /home/vishwa/Documents/ML/ML-CP/bin/activate
+  628  cd Documents/
+  629  ls
+  630  cd AI
+  631  mkdir AI
+  632  cd AI/
+  633  ls
+  634  git clone https://github.com/Spidy20/Smart_Resume_Analyser_App.git AI-CP
+  635  python3 -m venv AI-ENV
+  636  code AI-CP/
+  637  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  638  /home/vishwa/Documents/AI/AI-ENV/bin/python -m pip install -U autopep8
+  639  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  640  pip install -r requirements.txt 
+  641  ls -a
+  642  rm -rf .git/
+  643  ls -a
+  644  clear
+  645  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  646  clear
+  647  touch Deployment.py
+  648  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  649  streamlit run App.py 
+  650  python
+  651  streamlit run App.py 
+  652  pip install youtube-dl
+  653  streamlit run App.py 
+  654  python -m spacy download en_core_web_sm
+  655  streamlit run App.py 
+  656  pip install pyresparser
+  657  streamlit run App.py 
+  658  pip install nltk
+  659  pip install spacy==2.3.5
+  660  pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
+  661  pip install pyresparser
+  662  streamlit run App.py 
+  663  pip uninstall pafy
+  664  pip install git+https://github.com/Cupcakus/pafy
+  665  streamlit run App.py 
+  666  pip freeze > requirements.txt 
+  667  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  668  streamlit run App.py 
+  669  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  670  history
+  671  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  672  streamlit run App.py 
+  673  pip freeze > requirements.txt 
+  674  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  675  source /home/vishwa/Documentsclear
+  676  clear
+  677  streclear
+  678  clear
+  679  source /home/vishwa/Documents/AI/AI-ENV/bin/activate
+  680  st
+  681  clear
+  682  pip clear
+  683  clear
+  684  pip unistall -r requirements.txt 
+  685  pip uninstall -r requirements.txt 
+  686  y
+  687  pip uninstall -r requirements.txt 
+  688  cd ..
+  689  ls
+  690  rm -rf AI-ENV/
+  691  ls
+  692  python3 --version
+  693  python3 -m venv AI-VENV
+  694  source /home/vishwa/Documents/AI/AI-VENV/bin/activate
+  695  piplist
+  696  pip list
+  697  pip install streamlit
+  698  pip install pyresparser
+  699  pip uninstall pyresparser
+  700  pip install pdfminer3
+  701  pip uninstall pdfminer3
+  702  pip install streamlit_tags
+  703  pip install pymysql
+  704  pip install plotly
+  705  history > history.txt

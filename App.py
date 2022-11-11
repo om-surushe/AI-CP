@@ -16,13 +16,13 @@ from streamlit_tags import st_tags
 from PIL import Image
 import pymysql
 from Courses import ds_course, web_course, android_course, ios_course, uiux_course, resume_videos, interview_videos
-import pafy
+# import pafy
 import plotly.express as px
 
 
-def fetch_yt_video(link):
-    video = pafy.new(link)
-    return video.title
+# def fetch_yt_video(link):
+#     video = pafy.new(link)
+#     return video.title
 
 
 def get_table_download_link(df, filename, text):
@@ -349,19 +349,19 @@ def run():
                                 resume_data['skills']),
                             str(recommended_skills), str(rec_course))
 
-                # Resume writing video
-                st.header("**Bonus Video for Resume Writing Tips💡**")
-                resume_vid = random.choice(resume_videos)
-                res_vid_title = fetch_yt_video(resume_vid)
-                st.subheader("✅ **"+res_vid_title+"**")
-                st.video(resume_vid)
+                # # Resume writing video
+                # st.header("**Bonus Video for Resume Writing Tips💡**")
+                # resume_vid = random.choice(resume_videos)
+                # res_vid_title = fetch_yt_video(resume_vid)
+                # st.subheader("✅ **"+res_vid_title+"**")
+                # st.video(resume_vid)
 
-                # Interview Preparation Video
-                st.header("**Bonus Video for Interview👨‍💼 Tips💡**")
-                interview_vid = random.choice(interview_videos)
-                int_vid_title = fetch_yt_video(interview_vid)
-                st.subheader("✅ **" + int_vid_title + "**")
-                st.video(interview_vid)
+                # # Interview Preparation Video
+                # st.header("**Bonus Video for Interview👨‍💼 Tips💡**")
+                # interview_vid = random.choice(interview_videos)
+                # int_vid_title = fetch_yt_video(interview_vid)
+                # st.subheader("✅ **" + int_vid_title + "**")
+                # st.video(interview_vid)
 
                 connection.commit()
             else:

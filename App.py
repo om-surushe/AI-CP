@@ -4,7 +4,8 @@ import base64
 import random
 import time
 import datetime
-import nltk_utils
+import nltk
+nltk.download('all')
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage

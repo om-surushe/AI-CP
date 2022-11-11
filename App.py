@@ -5,7 +5,7 @@ import random
 import time
 import datetime
 import nltk
-nltk.download('all')
+nltk.download('stopwords')
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
@@ -143,7 +143,7 @@ def run():
             save_image_path = './Uploaded_Resumes/'+pdf_file.name
             with open(save_image_path, "wb") as f:
                 f.write(pdf_file.getbuffer())
-            show_pdf(save_image_path)
+            # show_pdf(save_image_path)
             resume_data = ResumeParser(save_image_path).get_extracted_data()
             if resume_data:
 

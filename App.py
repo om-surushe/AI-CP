@@ -4,6 +4,7 @@ import base64
 import random
 import time
 import datetime
+import nltk_utils
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
@@ -18,7 +19,6 @@ import pymysql
 from Courses import ds_course, web_course, android_course, ios_course, uiux_course, resume_videos, interview_videos
 # import pafy
 import plotly.express as px
-import nltk_utils
 
 
 # def fetch_yt_video(link):

@@ -18,9 +18,7 @@ import pymysql
 from Courses import ds_course, web_course, android_course, ios_course, uiux_course, resume_videos, interview_videos
 # import pafy
 import plotly.express as px
-import nltk
-from nltk.stem import SnowballStemmer
-nltk.download('stopwords')
+import nltk_utils
 
 
 # def fetch_yt_video(link):

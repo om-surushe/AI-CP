@@ -19,6 +19,7 @@ from Courses import ds_course, web_course, android_course, ios_course, uiux_cour
 # import pafy
 import plotly.express as px
 import nltk
+from nltk.stem import SnowballStemmer
 nltk.download('stopwords')
 
 

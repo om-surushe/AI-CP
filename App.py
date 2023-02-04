@@ -118,7 +118,7 @@ def run():
     st.image(img)
 
     # Create the DB
-    db_sql = """CREATE DATABASE IF NOT EXISTS RESUME;"""
+    db_sql = """CREATE DATABASE IF NOT EXISTS sql12595649;"""
     cursor.execute(db_sql)
 
     # Create table

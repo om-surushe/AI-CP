@@ -86,7 +86,7 @@ def course_recommender(course_list):
 
 
 connection = pymysql.connect(
-    host='streamlit.cuy8oz00tarj.us-west-2.rds.amazonaws.com', user='admin', password='omsurushe', db='resume')
+    host='sql12.freesqldatabase.com', user='sql12595649', password='zQUi1lNUWd', db='sql12595649')
 cursor = connection.cursor()
 
 
